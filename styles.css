@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E5E5E5;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.back {
+    background-color: #CD8AFF;
+    content: "";
+    width: 713px;
+    height: 175px;
+    position: absolute;
+    border-radius: 30px;
+    z-index: -1;
+}
+
+.container {
+    background-color: #FFF;
+    width: 550px;
+    height: 297px;
+    border-radius: 24px;
+}
+
+.fa-x {
+    position: relative;
+    float: right;
+    position: relative;
+    right: 30px;
+    background-color: #F4EDFF;
+    border-radius: 50%;
+    padding: 25px;
+    margin-top: 32px;
+    color: #38196B;
+}
+
+p {
+    padding-top: 72px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    padding-left: 72px;
+}
+
+.notif {
+    padding-top: 30px;
+    padding-left: 72px;
+}
+
+span {
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.fa-bell {
+    padding: 24px;
+    background-image: linear-gradient(75deg, #9AB0FF, #EB73FF);
+    border-radius: 15px;
+    color: #FFF;
+}
+
+button {
+    padding: 12px 24px 12px 24px;
+    border-radius: 8px;
+}
+
+.block {
+    margin-left: 308px;
+    margin-right: 15px;
+    color: #FF1212;
+    border: 1px solid #FFB2B2;
+}
+
+.allow {
+    color: #0ABE31;
+    border: 1px solid #9EEBAF;
+}
